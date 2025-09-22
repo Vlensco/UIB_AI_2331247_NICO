@@ -1,0 +1,15 @@
+numpy: OK, version = 2.2.6
+pandas: OK, version = 2.3.2
+sklearn: OK, version = 1.7.2
+skfuzzy: OK, version = 0.5.0
+cv2: OK, version = 4.12.0
+matplotlib: OK, version = 3.10.6
+nltk: OK, version = 3.9.1
+Python: 3.13.7 | packaged by Anaconda, Inc. | (main, Sep  9 2025, 19:54:37) [MSC v.1929 64 bit (AMD64)]
+
+Python: 3.13.7 | packaged by Anaconda, Inc. | (main, Sep  9 2025, 19:54:37) [MSC v.1929 64 bit (AMD64)]
+numpy: 2.2.6
+pandas: 2.3.2
+sklearn: 1.7.2
+skfuzzy: 0.5.0
+opencv: 4.12.0
