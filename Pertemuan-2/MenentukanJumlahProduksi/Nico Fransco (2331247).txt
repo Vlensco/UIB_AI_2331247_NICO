@@ -1,0 +1,28 @@
+Project: Fuzzy Logic untuk Prediksi Jumlah Produksi Barang - Nico Fransco (2331247)
+
+Deskripsi:
+Project ini menggunakan pendekatan Fuzzy Logic untuk menentukan jumlah produksi barang berdasarkan dua variabel utama, yaitu jumlah permintaan konsumen (Demand) dan jumlah stok barang yang tersedia di gudang (Stock). 
+
+Alur kerja project:
+1. Dataset awal dihasilkan secara acak dengan 3 kolom utama: Demand, Stock, dan Production (hasil fuzzy).
+2. Membership function didefinisikan untuk variabel Demand, Stock, dan Production dengan kategori low, medium, dan high.
+3. Dibuat aturan (fuzzy rules) untuk mengatur hubungan antara permintaan, stok, dan jumlah produksi.
+4. Dataset kemudian diproses dengan fuzzy logic sehingga menghasilkan nilai produksi.
+5. Ditambahkan dua kolom baru berupa insight tambahan:
+   - Gap: selisih antara Demand dan Stock.
+   - Efficiency: rasio antara Production dan Demand.
+6. Dataset hasil akhir diekspor ke file CSV baru dengan total 5 kolom.
+7. Visualisasi berupa histogram, scatter plot, dan boxplot dibuat untuk menunjukkan distribusi dan hubungan antar variabel.
+
+Tools & Library:
+- Python 3
+- Numpy, Pandas
+- Scikit-Fuzzy
+- Matplotlib, Seaborn
+
+Output:
+- Dataset awal (3 kolom) dalam CSV
+- Dataset hasil akhir (5 kolom) dalam CSV
+- Visualisasi distribusi data
+
+Link Repo : https://github.com/Vlensco/UIB_AI_2331247_NICO
